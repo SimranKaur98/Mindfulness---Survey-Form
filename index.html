@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Mindful Thinking Survey Form</h1>
+    <p id="quote">"Mindfulness is like a quiet river—flowing, reflecting, and embracing the depths of the present."</p>
+    <p id="description">Know your level of daily mindfulness through this survey.</p>
+
+    <form id="survey-form">
+
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Name" required/></label>
+
+      <label id="email-label" for="email">Email <input id="email" type="email" placeholder="xyz@email.com" required/></label>
+
+      <label id="number-label" for="number">Age <input id="number" type="number" min="5" max="130" placeholder="Age"/></label>
+      </fieldset>
+
+      <fieldset>
+        <label class="section">Section 1: Awareness of the present moment.</label>
+        <label>1. How often do you consciously bring your attention to the present moment?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Always</option>
+          <option>Often</option>
+          <option>Sometimes</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+      
+      <label>2. Do you find yourself overthinking past events or worrying about the future?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Always</option>
+          <option>Often</option>
+          <option>Sometimes</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+
+      <label>3. When engaging in daily activities (e.g., eating, walking, listening), how often do you feel fully present?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Always</option>
+          <option>Often</option>
+          <option>Sometimes</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+      </fieldset>
+
+      <fieldset>
+        <label class="section">Section 2: Mindful Thinking & Awareness</label>
+        <label>4. Do you believe your thoughts define your identity, or do you observe them as passing events?</label>
+
+          <label><input name="input4" type="radio" value="1" checked/>I feel identified with my thoughts</label>
+          <label><input name="input4" type="radio" value="2" />I mostly observe them but sometimes get caught up in them</label>
+          <label><input name="input4" type="radio" value="3" />I can separate myself from my thoughts easily<label>
+        
+      
+      
+      <label>5. How often do you consciously pause and observe your thoughts without judgment?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Many times a day</option>
+          <option>Once or twice a day</option>
+          <option>A few times a week</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+
+      <label>6. When facing a stressful situation, do you remind yourself that it is temporary and part of a passing moment?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Always</option>
+          <option>Often</option>
+          <option>Sometimes</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+      </fieldset>
+
+      <fieldset>
+        <label class="section">Section 3: Mindful Actions & Daily Practice</label>
+        <label>7. How often do you take deep, conscious breaths to anchor yourself in the present?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Many times a day</option>
+          <option>Once or twice a day</option>
+          <option>A few times a week</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+      
+      <label>8. When making decisions, do you notice automatic reactions versus consciously choosing a response?</label>
+
+          <label><input name="input8" type="radio" value="1" checked />I mostly react automatically</label>
+          <label><input name="input8" type="radio" value="2" /> I sometimes catch myself and adjust</label>
+          <label><input name="input8" type="radio" value="3" />I frequently pause before responding
+      </label>
+
+      <label>9. Do you engage in any mindfulness practices such as meditation, mindful walking, or deep breathing?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Yes, daily</option>
+          <option>A few times a week</option>
+          <option>Occasionally</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+      </fieldset>
+
+      <fieldset>
+        <label class="section">Section 4: Mindfulness & Perspective Shift</label>
+        <label>10. Have you experienced moments where you detach from overthinking and simply observe life as it unfolds?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Often</option>
+          <option>Occasionally</option>
+          <option>Rarely</option>
+          <option>Never</option>
+        </select>
+      </label>
+      
+      <label>11. Do you find yourself becoming less judgmental and more accepting of different perspectives over time?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Yes, significantly</option>
+          <option>Yes, somewhat</option>
+          <option>Sometimes</option>
+          <option>Neutral</option>
+          <option>No, not really</option>
+        </select>
+      </label>
+
+      <label>12. If given a chance, would you like to deepen your mindfulness practice?
+        <select id="dropdown">
+          <option>~Select one~</option>
+          <option>Yes, absolutely</option>
+          <option>Maybe</option>
+          <option>Not sure</option>
+          <option>No</option>
+        </select>
+      </label>
+      </fieldset>
+
+      <fieldset>
+        <label class="section">Activities that makes you more mindful: </label>
+        <label class="checkbox"><input type="checkbox" value="1"/> Meditation</label>
+        <label class="checkbox"><input type="checkbox" value="2"/> Journalling</label>
+        <label class="checkbox"><input type="checkbox" value="3"/> Playing Indoor Games</label>
+        <label class="checkbox"><input type="checkbox" value="4"/> Playing Sports</label>
+        <label class="checkbox"><input type="checkbox" value="5"/> Laughter Yoga</label>
+        <label class="checkbox"><input type="checkbox" value="6"/> Yoga</label>
+        <label class="checkbox"><input type="checkbox" value="7"/> Walking</label>
+        <label class="checkbox"><input type="checkbox" value="8"/>Other</label>
+      
+
+        <label>Comment <textarea  placeholder="write your comments here..."></textarea></label>
+      </fieldset>
+      <input id="submit" type="submit">
+    </form>
+  </body>
+</html>
